@@ -3,7 +3,7 @@ import praw
 
 
 reddit = praw.Reddit(client_id = "k065ufeuiRB0lw", #
-             client_secret = "Y-N0RhWOTGdMHlG9WlslWbHMXYc",
+             client_secret = 'client_secret',
              user_agent = "RScraperAPI")
 
 options = webdriver.ChromeOptions()
